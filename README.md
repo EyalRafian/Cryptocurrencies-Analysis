@@ -22,7 +22,7 @@ docker-compose build
 docker-compose up -d
 ```
 
-To visit the FastAPI documentation of the resulting service, visit http://localhost:8000/docs with a web browser.  
+To visit the FastAPI documentation, visit http://localhost:8000/docs with a web browser.  
 To visit the streamlit UI, visit http://localhost:8501.
 
 To bring it all down
