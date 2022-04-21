@@ -36,7 +36,7 @@ docker-compose down --rmi all
 
 ### Apps
 
-The repository consist of two microservices: FastAPI and Streamlit, using `FastAPI` for the backend service and `streamlit` for the frontend service. 
+The repository contains two microservices: FastAPI and Streamlit, using `FastAPI` for the backend service and `streamlit` for the frontend service. 
 `docker-compose` orchestrates the two services and allows communication between them.
 
 ### File structure
