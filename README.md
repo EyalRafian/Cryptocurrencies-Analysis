@@ -22,7 +22,8 @@ docker-compose build
 docker-compose up -d
 ```
 
-In your browser, attend [localhost:8501](http://localhost:8501/) and see the Streamlit app alive. Go to [localhost:8000/docs](http://localhost:8000/docs/) to see the documentation for the FastAPI app.
+To visit the FastAPI documentation of the resulting service, visit http://localhost:8000 with a web browser.  
+To visit the streamlit UI, visit http://localhost:8501.
 
 To bring it all down
 
