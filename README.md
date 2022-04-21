@@ -9,7 +9,6 @@
 ## Description
 
 A streamlit app with FastAPI backend for crypto screening and analysis.
-In this project, using `FastAPI` for the backend service and `streamlit` for the frontend service. `docker-compose` orchestrates the two services and allows communication between them.
 
 ## Quick start
 
@@ -35,7 +34,8 @@ docker-compose down --rmi all
 
 ### Apps
 
-The repository consist of two apps: FastAPI and Streamlit.
+The repository consist of two apps: FastAPI and Streamlit, using `FastAPI` for the backend service and `streamlit` for the frontend service. 
+`docker-compose` orchestrates the two services and allows communication between them.
 
 ### File structure
 
