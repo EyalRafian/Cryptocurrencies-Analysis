@@ -8,7 +8,8 @@
         
 ## Description
 
-A streamlit app with FastAPI backend for Crypto screening and analysis. Data is imported from the yfinance library.
+A streamlit app with FastAPI backend for crypto screening and analysis.
+In this project, using `FastAPI` for the backend service and `streamlit` for the frontend service. `docker-compose` orchestrates the two services and allows communication between them.
 
 ## Quick start
 
