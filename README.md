@@ -9,6 +9,8 @@
 ## Description
 
 A streamlit app with FastAPI backend for crypto screening and analysis.
+These microservices communicate with each other through HTTP. 
+Each folder is a microservice.
 
 ## Quick start
 
