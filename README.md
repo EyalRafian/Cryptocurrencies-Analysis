@@ -9,7 +9,7 @@
 ## Description
 
 A streamlit app with FastAPI backend for crypto screening and analysis.
-These microservices communicate with each other through HTTP.
+These microservices communicate with each other through HTTP and containerized with Docker.
 
 ## Quick start
 
