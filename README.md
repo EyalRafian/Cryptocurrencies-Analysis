@@ -47,7 +47,6 @@ This repository contains two microservices: FastAPI and Streamlit, using `FastAP
 ├── backend
 │   ├── Dockerfile
 │   ├── main.py
-│   ├── main.py
 │   ├── test_main.py
 │   ├── coins.db
 │   ├── database.py
