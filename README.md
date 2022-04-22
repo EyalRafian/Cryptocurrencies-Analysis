@@ -10,7 +10,6 @@
 
 A streamlit app with FastAPI backend for crypto screening and analysis.
 These microservices communicate with each other through HTTP and containerized with Docker.
-Data is imported from the yfinance library.
 
 ## Quick start
 
