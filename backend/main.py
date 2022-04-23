@@ -17,14 +17,12 @@ models.Base.metadata.create_all(bind=engine)
 class CoinRequest(BaseModel):
     ticker: str
 
-
 def get_db():
     try:
         db = SessionLocal()
         yield db
     finally:
         db.close()
-
 
 def fetch_coin_data(id: int):
     """
@@ -43,7 +41,6 @@ def fetch_coin_data(id: int):
     db.add(coin)
     db.commit()
 
-
 @app.get("/")
 def get_coins_table(request: Request, db: Session = Depends(get_db)):
     """
@@ -61,7 +58,6 @@ def get_coins_table(request: Request, db: Session = Depends(get_db)):
     # db.close()
     return JSONResponse(content=json.dumps({"coins": coin_table}))
 
-# async def create_coin(background_tasks: BackgroundTasks):
 @app.post("/add")
 def create_coin(input: CoinRequest, db: Session = Depends(get_db)):
     """
@@ -80,11 +76,10 @@ def create_coin(input: CoinRequest, db: Session = Depends(get_db)):
         "message": "coin created"
     }
 
-
 @app.post("/delete")
 async def delete_coin(input: CoinRequest, db: Session = Depends(get_db)):
     """
-    Delete an item from the coin database.
+    Delete an item from the database.
     """
 
     delete_item = db.query(CoinItem).filter(
@@ -98,11 +93,10 @@ async def delete_coin(input: CoinRequest, db: Session = Depends(get_db)):
         "message": "coin deleted"
     }
 
-
 @app.post("/update")
 def update_table(input: CoinRequest, db: Session = Depends(get_db)):
     """
-    Replace existing coins data with the latest data from yfinance
+    Replace existing data with the latest data from yfinance
     """
 
     engine.execute('DELETE FROM Coins')  # delete all data from table
@@ -119,4 +113,3 @@ def update_table(input: CoinRequest, db: Session = Depends(get_db)):
         "code": "success",
         "message": "coin table updated"
     }
-
