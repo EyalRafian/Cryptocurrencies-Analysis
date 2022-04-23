@@ -5,7 +5,7 @@
 -   [Walk through](#walk-through)
     -   [Services](#Services)
     -   [File structure](#file-structure)
-    -   [Demo](#Demo)
+    -   [Project Demo](#Project Demo)
         
 ## Description
 
@@ -59,6 +59,6 @@ This repository contains two microservices: FastAPI and Streamlit, using `FastAP
     └── requirements.txt
 ```
 
-## Demo
+## Project Demo
 
 ![](Demo.gif)
