@@ -28,7 +28,7 @@ def get_db():
 
 def fetch_coin_data(id: int):
     """
-    Import coins data from yfinance API
+    Import data from yfinance API
     """
     db = SessionLocal()
     coin = db.query(CoinItem).filter(CoinItem.id == id).first()
