@@ -6,7 +6,7 @@
 
 -   [Description](#description)
 -   [Quick start](#quick-start)
--   [Walk through](#walk-through)
+-   [Overview](#Overview)
     -   [Services](#Services)
     -   [File structure](#file-structure)
     -   [Project demo](#project-demo)
