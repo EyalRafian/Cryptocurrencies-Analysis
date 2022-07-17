@@ -1,5 +1,7 @@
 # Cryptocurrencies Analysis (Streamlit + FastAPI)
 
+![](ApplicationDesign.png)
+
 -   [Description](#description)
 -   [Quick start](#quick-start)
 -   [Walk through](#walk-through)
