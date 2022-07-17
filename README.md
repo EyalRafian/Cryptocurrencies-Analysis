@@ -2,6 +2,8 @@
 
 ![](ApplicationDesign.png)
 
+## Walkthrough
+
 -   [Description](#description)
 -   [Quick start](#quick-start)
 -   [Walk through](#walk-through)
@@ -35,7 +37,7 @@ To bring it all down
 docker-compose down --rmi all 
 ```
 
-## Walk through
+## Overview
 
 ### Services
 
